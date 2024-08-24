@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNH+6fo9wOKjN7aUuDjJaaA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/matheusdebug404/POO-/blob/main/POO_01%20-%20Tarefa%20Aula\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#ResoluçãoExercício01"
+      ],
+      "metadata": {
+        "id": "LOZi-wS3zCb5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Solicita ao usuário para digitar a temperatura em Fahrenheit\n",
+        "fahrenheit = float(input(\"Digite a temperatura em Fahrenheit: \"))\n",
+        "\n",
+        "# Calcula a temperatura em Celsius\n",
+        "celsius = (5/9) * (fahrenheit - 32)\n",
+        "\n",
+        "# Exibe a temperatura em Celsius\n",
+        "print(f\"A temperatura em Celsius é: = {celsius:.2f}°C\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "26c7CdaqzYqb",
+        "outputId": "baca335c-8f17-4944-a886-d85474cb1271"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a temperatura em Fahrenheit: 90\n",
+            "A temperatura em Celsius é: cels = 32.22°C\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "13cNx6-PzhJt"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
